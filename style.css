@@ -7,3 +7,76 @@
 .nav-item{
     margin-left: 40px;
 }
+
+.container{
+    margin-bottom: 40px;
+}
+
+.carousel-indicators li{
+    background-color: gray;
+    width: 12px;
+    height: 7px;
+    border-radius: 2px;
+}
+.carousel-indicators li.active{
+    width: 20px;
+    height: 0.5px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #FF9C35 0%, #FFD019 100%);
+    }
+
+.buy-button{
+    background-color: black;
+    color: white;
+}
+
+.card-height{
+    height: 600px;
+    margin-bottom: 40px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.text-right{
+    color: orange;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 10px lightgray;
+}
+.card-body{
+    text-align: center;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+.text-center{
+    font-size: 30px;
+    font-weight: 600;
+}
+.bag{
+    max-width: 250px;
+    border-radius: 10px 40px;
+    box-shadow: 3px 3px 10px lightgray;
+    width: 200px;
+    height: 350px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.beauty, .shoe{
+    border-radius: 40px 10px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+
+.beauty, .shoe{
+    width: 250px;
+    height: 350px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
