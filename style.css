@@ -7,6 +7,13 @@
 .nav-item{
     margin-left: 40px;
 }
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.2);
+    background-color: burlywood;
+}
 
 .container{
     margin-bottom: 40px;
@@ -66,17 +73,28 @@ h3{
     box-shadow: 3px 3px 10px lightgray;
     width: 200px;
     height: 350px;
-    padding-left: 50px;
     padding-top: 100px;
 }
 .beauty, .shoe{
     border-radius: 40px 10px;
     box-shadow: 3px 3px 10px lightgray;
-}
-
-.beauty, .shoe{
     width: 250px;
     height: 350px;
-    padding-left: 50px;
     padding-top: 100px;
+}
+
+span {
+    display: inline-block;
+    width: 90px;
+    height: 7px;
+    background: linear-gradient(90deg, #FF9C35 0%, #FFD019 100%);
+  }
+.top-zero{
+    margin-top: -35px;
+    padding-top: 0%;
+    margin-bottom: 40px;
+}
+.bolder{
+    font-weight: 500;
+    font-size: 20px;
 }
